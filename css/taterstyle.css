@@ -91,118 +91,20 @@ body {
     margin: 10px 10px;
     right: 80px;
 }
-.items-row-1, .items-row-2 {
-    text-align: center;
-    padding-top: 30px;
+.Items-section .items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.Items-section .items a.box {
+    border: 1px solid #fbbc29;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
     font-size: 14px;
-}
-.items-row-2 {
-    padding: 50px 0px 0px 0px;
-}
-
-.items-row-1 nav a.chicken {
-    color: #fff;
-    padding: 10px 51px;
-    border: 1px solid #fcb900;
-    margin: 0px 10px;
-    border-radius: 10px;
-}
-.items-row-1 nav a.chicken:hover {
-    color: #fff;
-    border: 1px solid #fcb900;
-    background-color:  #fcb900;
-    border-radius: 10px;
-}
-.items-row-1 nav a.Shrimp{
-    color: #fff;
-    padding: 10px 50px;
-    border: 1px solid #fcb900;
-    margin: 0px 10px;
-    border-radius: 10px;
-}
-.items-row-1 nav a.Shrimp:hover{
-    color: #fff;
-    border: 1px solid #fcb900;
-    background-color:  #fcb900;
-    border-radius: 10px;
-}
-.items-row-1 nav a.Philly{
-    color: #fff;
-    padding: 10px 40px;
-    border: 1px solid #fcb900;
-    margin: 0px 10px;
-    border-radius: 10px;
-}
-.items-row-1 nav a.Philly:hover{
-    color: #fff;
-    border: 1px solid #fcb900;
-    background-color:  #fcb900;
-    border-radius: 10px;
-}
-.items-row-1 nav a.Taco{
-    color: #fff;
-    padding: 10px 80px;
-    border: 1px solid #fcb900;
-    margin: 0px 10px;
-    border-radius: 10px;
-}
-.items-row-1 nav a.Taco:hover{
-    color: #fff;
-    border: 1px solid #fcb900;
-    background-color:  #fcb900;
-    border-radius: 10px;
-}
-.items-row-2 nav a.cheesy {
-    color: #fff;
-    padding: 10px 46px;
-    border: 1px solid #fcb900;
-    margin: 0px 10px;
-    border-radius: 10px;
-}
-.items-row-2 nav a.cheesy:hover{
-    color: #fff;
-    border: 1px solid #fcb900;
-    background-color:  #fcb900;
-    border-radius: 10px;
-}
-.items-row-2 nav a.chilli {
-    color: #fff;
-    padding: 10px 57px;
-    border: 1px solid #fcb900;
-    margin: 0px 10px;
-    border-radius: 10px;
-}
-.items-row-2 nav a.chilli:hover{
-    color: #fff;
-    border: 1px solid #fcb900;
-    background-color:  #fcb900;
-    border-radius: 10px;
-}
-.items-row-2 nav a.cheeseburger {
-    color: #fff;
-    padding: 10px 55px;
-    border: 1px solid #fcb900;
-    margin: 0px 10px;
-    border-radius: 10px;
-}
-.items-row-2 nav a.cheeseburger:hover{
-    color: #fff;
-    border: 1px solid #fcb900;
-    background-color:  #fcb900;
-    border-radius: 10px;
-}
-.items-row-2 nav a.veggie {
-    color: #fff;
-    padding: 10px 74px;
-    border: 1px solid #fcb900;
-    margin: 0px 10px;
-    border-radius: 10px;
-}
-.items-row-2 nav a.veggie:hover{
-    color: #fff;
-    border: 1px solid #fcb900;
-    background-color:  #fcb900;
-    border-radius: 10px;
 }
 .items-row-1 nav a.chicken::before {
     position: absolute;
