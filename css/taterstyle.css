@@ -297,6 +297,7 @@ div#toggle, div#menu {
     }
     .Items-section .items {
        grid-template-columns: 1fr;
+       padding: 10px;
     }
     .build-btn a {
         padding: 10px 110px;
