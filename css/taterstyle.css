@@ -105,6 +105,7 @@ body {
     align-items: center;
     height: 40px;
     font-size: 14px;
+    position: relative;
 }
 .Items-section .items a.box:hover {
     color: #fff;
@@ -112,95 +113,13 @@ body {
     background-color:  #fcb900;
     border-radius: 12px;
 }
-.items-row-1 nav a.chicken::before {
+  .Items-section .items a.box::before {
+    content: "• ";
+    color: #fbbc29;
+    font-size: 40px;
     position: absolute;
-    content: "";
-    width: 8px;
-    height: 8px;
-    background: #FBBC29;
-    display: inline-block;
-    margin-top: 5px;
-    margin-left: 50px;
-    border-radius: 50px;
-    left: 30px;
-}
-.items-row-1 nav a.Shrimp::before {
-    position: absolute;
-    content: "";
-    width: 8px;
-    height: 8px;
-    background: #FBBC29;
-    display: inline-block;
-    margin-top: 5px;
-    margin-left: -42px;
-    border-radius: 50px;
-}
-.items-row-1 nav a.Philly::before {
-    position: absolute;
-    content: "";
-    width: 8px;
-    height: 8px;
-    background: #FBBC29;
-    display: inline-block;
-    margin-top: 5px;
-    margin-left: -32px;
-    border-radius: 50px;
-}
-.items-row-1 nav a.Taco::before {
-    position: absolute;
-    content: "";
-    width: 8px;
-    height: 8px;
-    background: #FBBC29;
-    display: inline-block;
-    margin-top: 5px;
-    margin-left: -70px;
-    border-radius: 50px;
-}
-.items-row-2 nav a.cheesy::before {
-    position: absolute;
-    content: "";
-    width: 8px;
-    height: 8px;
-    background: #FBBC29;
-    display: inline-block;
-    margin-top: 5px;
-    margin-left: 50px;
-    border-radius: 50px;
-    left: 30px;
-}
-.items-row-2 nav a.chilli::before {
-    position: absolute;
-    content: "";
-    width: 8px;
-    height: 8px;
-    background: #FBBC29;
-    display: inline-block;
-    margin-top: 5px;
-    margin-left: -45px;
-    border-radius: 50px;
-}
-.items-row-2 nav a.cheeseburger::before {
-    position: absolute;
-    content: "";
-    width: 8px;
-    height: 8px;
-    background: #FBBC29;
-    display: inline-block;
-    margin-top: 5px;
-    margin-left: -45px;
-    border-radius: 50px;
-}
-.items-row-2 nav a.veggie::before {
-    position: absolute;
-    content: "";
-    width: 8px;
-    height: 8px;
-    background: #FBBC29;
-    display: inline-block;
-    margin-top: 5px;
-    margin-left: -62px;
-    border-radius: 50px;
+    top: -8px;
+    left: 18px;
 }
 div h6 {
     text-align: center;
