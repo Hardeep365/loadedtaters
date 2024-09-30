@@ -296,9 +296,7 @@ div#toggle, div#menu {
         font-size: 16px;
     }
     .Items-section .items {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+       grid-template-columns: 1fr;
     }
     .build-btn a {
         padding: 10px 110px;
